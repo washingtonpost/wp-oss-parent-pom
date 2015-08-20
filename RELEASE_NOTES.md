@@ -2,7 +2,7 @@
 
 ## 0.0.4 Release Date TBD
 
-* 
+* Updating various Maven Plugins to latest & greatest versions that our future children are already using
 
 ## 0.0.3 Release Date 2015/08/20
 

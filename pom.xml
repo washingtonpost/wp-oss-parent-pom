@@ -53,14 +53,14 @@
         <version.java>1.8</version.java>
         <version.maven.checkstyle.plugin>2.15</version.maven.checkstyle.plugin>
         <version.maven.clean.plugin>2.4.1</version.maven.clean.plugin>
-        <version.maven.compiler.plugin>3.1</version.maven.compiler.plugin>
+        <version.maven.compiler.plugin>3.3</version.maven.compiler.plugin>
         <version.maven.deploy.plugin>2.8.1</version.maven.deploy.plugin>
         <version.maven.enforcer.plugin>1.3</version.maven.enforcer.plugin>
         <version.maven.exec.plugin>1.2</version.maven.exec.plugin>
         <version.maven.findbugs.plugin>2.4.0</version.maven.findbugs.plugin>
         <version.maven.gpg.plugin>1.5</version.maven.gpg.plugin>
-        <version.maven.jacoco.plugin>0.7.0.201403182114</version.maven.jacoco.plugin>
-        <version.maven.jar.plugin>2.3.2</version.maven.jar.plugin>
+        <version.maven.jacoco.plugin>0.7.5.201505241946</version.maven.jacoco.plugin>
+        <version.maven.jar.plugin>2.4</version.maven.jar.plugin>
         <version.maven.javadoc.plugin>2.9.1</version.maven.javadoc.plugin>
         <version.maven.jxr.plugin>2.3</version.maven.jxr.plugin>
         <version.maven.pmd.plugin>2.7.1</version.maven.pmd.plugin>
@@ -70,7 +70,7 @@
         <version.maven.shade.plugin>2.2</version.maven.shade.plugin>
         <version.maven.site.plugin>3.3</version.maven.site.plugin>
         <version.maven.source.plugin>2.2.1</version.maven.source.plugin>
-        <version.maven.surefire.plugin>2.16</version.maven.surefire.plugin>
+        <version.maven.surefire.plugin>2.18.1</version.maven.surefire.plugin>
         <version.nexus.staging.plugin>1.6.3</version.nexus.staging.plugin>
     </properties>
 
