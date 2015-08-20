@@ -10,8 +10,8 @@
     <description>Washington Post Master Public Parent POM</description>
 
     <scm>
-        <connection>scm:git:git@github.com:WPMedia/wp-java-checkstyle.git</connection>
-        <developerConnection>scm:git:git@github.com:WPMedia/wp-java-checkstyle.git</developerConnection>
+        <connection>scm:git:git@github.com:washingtonpost/wp-oss-parent-pom.git</connection>
+        <developerConnection>scm:git:git@github.com:washingtonpost/wp-oss-parent-pom.git</developerConnection>
         <tag>HEAD</tag>
         <url>https://github.com/washingtonpost/wp-oss-parent-pom.git</url>
     </scm>
@@ -72,7 +72,6 @@
                         <!-- See http://maven.apache.org/maven-release/maven-release-plugin/examples/prepare-release.html -->
                         <tagNameFormat>@{project.version}</tagNameFormat>
                         <goals>deploy</goals>
-                        <autoVersionSubmodules>true</autoVersionSubmodules>
                         <indentSize>${release.plugin.indent.size}</indentSize>
                         <!-- Invoke 'release' profile which skips tests -->
                         <releaseProfiles>release</releaseProfiles>
