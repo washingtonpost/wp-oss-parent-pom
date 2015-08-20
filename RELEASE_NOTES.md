@@ -1,5 +1,9 @@
 # wp-oss-parent-pom Release Notes
 
+## 0.0.6 Release Date 2016/08/20
+
+* Using the "attach-javadocs" execution, and only generating javadoc during the "release-opensource" profile execution
+
 ## 0.0.5 Release Date 2015/08/20
 
 * Adding the maven-javadoc-plugin as a standard build plugin (because the -javadoc.jar is required for sonatype hosting)
