@@ -1,8 +1,8 @@
 # wp-oss-parent-pom Release Notes
 
-## 0.0.4 Release Date 2015/08/20
+## 0.0.4 Release Date TBD
 
-* Experimenting with removing distributionManagement sections from the pom in favor of settings.xml configuration
+* 
 
 ## 0.0.3 Release Date 2015/08/20
 

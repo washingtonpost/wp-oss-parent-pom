@@ -31,6 +31,17 @@
         <url>https://github.com/washingtonpost/wp-oss-parent-pom.git</url>
     </scm>
     
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh-snapshots</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh-releases</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
+    
     <properties>
         <default.encoding>UTF-8</default.encoding>
         <project.build.sourceEncoding>${default.encoding}</project.build.sourceEncoding>
