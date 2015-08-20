@@ -1,5 +1,9 @@
 # wp-oss-parent-pom Release Notes
 
+## 0.0.5 Release Date 2015/08/20
+
+* Adding the maven-javadoc-plugin as a standard build plugin (because the -javadoc.jar is required for sonatype hosting)
+
 ## 0.0.4 Release Date 2015/08/20
 
 * Updating various Maven Plugins to latest & greatest versions that our future children are already using
