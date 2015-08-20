@@ -1,6 +1,6 @@
 # wp-oss-parent-pom Release Notes
 
-## 0.0.4 Release Date TBD
+## 0.0.4 Release Date 2015/08/20
 
 * Updating various Maven Plugins to latest & greatest versions that our future children are already using
 
