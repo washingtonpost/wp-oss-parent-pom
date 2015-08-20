@@ -6,7 +6,24 @@
     <version>0.0.2-SNAPSHOT</version>
     <name>wp-oss-parent-pom</name>
     <description>Washington Post Master Public Parent POM</description>
+    <url>https://washingtonpost.com/</url>
 
+    <licenses>
+        <license>
+            <name>The MIT License</name>
+            <url>http://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Washington Post Engineering</name>
+            <email>web.engineering@washpost.com</email>
+            <organization>The Washington Post</organization>
+        </developer>
+    </developers>
+    
     <scm>
         <connection>scm:git:git@github.com:washingtonpost/wp-oss-parent-pom.git</connection>
         <developerConnection>scm:git:git@github.com:washingtonpost/wp-oss-parent-pom.git</developerConnection>
@@ -366,6 +383,17 @@
                                 </goals>
                             </execution>
                         </executions>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.sonatype.plugins</groupId>
+                        <artifactId>nexus-staging-maven-plugin</artifactId>
+                        <version>${version.nexus.staging.plugin}</version>
+                        <extensions>true</extensions>
+                        <configuration>
+                            <serverId>ossrh-releases</serverId>
+                            <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                            <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                        </configuration>
                     </plugin>
                 </plugins>
             </build>
