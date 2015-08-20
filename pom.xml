@@ -352,7 +352,7 @@
                         <configuration combine.self="override">
                             <mavenExecutorId>forked-path</mavenExecutorId>
                             <useReleaseProfile>false</useReleaseProfile>
-                            <arguments>${arguments} -Psonatype-oss-release</arguments>
+                            <releaseProfiles>release-opensource</releaseProfiles>
                             <tagNameFormat>@{project.version}</tagNameFormat>
                         </configuration>
                     </plugin>
