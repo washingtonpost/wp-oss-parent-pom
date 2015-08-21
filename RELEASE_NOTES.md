@@ -3,6 +3,7 @@
 ## 0.0.8 Release Date 2015/08/21
 
 * Adding a jacoco.datafile.location property
+* Switching to MIT license everywhere per internal Slack conversations
 
 ## 0.0.7 Release Date 2015/08/21
 
