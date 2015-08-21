@@ -1,5 +1,9 @@
 # wp-oss-parent-pom Release Notes
 
+## 0.0.8 Release Date 2015/08/21
+
+* Adding a jacoco.datafile.location property
+
 ## 0.0.7 Release Date 2015/08/21
 
 * Synching POM license stanza with the LICENSE file

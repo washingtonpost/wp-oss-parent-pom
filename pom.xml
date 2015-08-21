@@ -44,6 +44,7 @@
     
     <properties>
         <default.encoding>UTF-8</default.encoding>
+        <jacoco.datafile.location>${project.build.directory}/jacoco/coverage.data.bin</jacoco.datafile.location>
         <project.build.sourceEncoding>${default.encoding}</project.build.sourceEncoding>
         <project.reporting.outputEncoding>${default.encoding}</project.reporting.outputEncoding>
         <maven.failsafe.argLine>-XX:+HeapDumpOnOutOfMemoryError -Xmx1024M -XX:MaxPermSize=256M -Djava.awt.headless=true</maven.failsafe.argLine>
