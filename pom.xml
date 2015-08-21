@@ -10,8 +10,8 @@
 
     <licenses>
         <license>
-            <name>The MIT License</name>
-            <url>http://opensource.org/licenses/MIT</url>
+            <name>GNU GENERAL PUBLIC LICENSE</name>
+            <url>http://opensource.org/licenses/GPL-2.0</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
