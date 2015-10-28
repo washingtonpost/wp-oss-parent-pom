@@ -47,8 +47,8 @@
         <jacoco.datafile.location>${project.build.directory}/jacoco/coverage.data.bin</jacoco.datafile.location>
         <project.build.sourceEncoding>${default.encoding}</project.build.sourceEncoding>
         <project.reporting.outputEncoding>${default.encoding}</project.reporting.outputEncoding>
-        <maven.failsafe.argLine>-XX:+HeapDumpOnOutOfMemoryError -Xmx1024M -XX:MaxPermSize=256M -Djava.awt.headless=true</maven.failsafe.argLine>
-        <maven.surefire.argLine>-XX:+HeapDumpOnOutOfMemoryError -Xmx1024M -XX:MaxPermSize=256M -Djava.awt.headless=true</maven.surefire.argLine>
+        <maven.failsafe.argLine>-XX:+HeapDumpOnOutOfMemoryError -Xmx1024M -Djava.awt.headless=true</maven.failsafe.argLine>
+        <maven.surefire.argLine>-XX:+HeapDumpOnOutOfMemoryError -Xmx1024M -Djava.awt.headless=true</maven.surefire.argLine>
         <maven.surefire.fork.count>1C</maven.surefire.fork.count>
         <maven.test.runOrder>hourly</maven.test.runOrder>
         <version.java>1.8</version.java>

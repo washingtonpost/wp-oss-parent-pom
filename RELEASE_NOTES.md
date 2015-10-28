@@ -1,5 +1,9 @@
 # wp-oss-parent-pom Release Notes
 
+## 0.0.9 Release Date TBD
+
+* Removing obsolete/unused MaxPermSize (support was removed in Java 8)
+
 ## 0.0.8 Release Date 2015/08/21
 
 * Adding a jacoco.datafile.location property
